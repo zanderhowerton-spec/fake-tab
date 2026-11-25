@@ -1,0 +1,9 @@
+# Fake mode: true = fake players shown (real players hidden from tab), false = real players only
+enabled: true
+# Percent (0-100) of eligible fake players that are shown. Lower = emptier-looking tab.
+fullness: 100
+# Percent (0-100) of fake players with reduced ping bars (levels 1-3 below full). ~20 = 1 in 5.
+lag-percent: 20
+# Only names starting with digits, '_' or letters up to this letter are used. Use "z" for everything.
+# NOTE: the vanilla client only draws the first 80 entries, so "c" is plenty.
+max-letter: c

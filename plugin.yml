@@ -1,0 +1,17 @@
+name: FakeTab
+version: 1.0.0
+main: dev.faketab.FakeTab
+api-version: '1.21'
+depend: [ProtocolLib]
+description: Fills the tab list with verified-real Minecraft accounts.
+commands:
+  faketab:
+    description: Control the fake tab list
+    aliases: [ft]
+    usage: /faketab help
+permissions:
+  faketab.admin:
+    default: op
+  faketab.bypass:
+    description: Always sees the real tab list
+    default: false
